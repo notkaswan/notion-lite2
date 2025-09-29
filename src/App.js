@@ -1,12 +1,10 @@
 import "./App.css";
+import Body from "./components/Body";
 
 export function App() {
   return (
-    <div className="bg-amber-500">
-      <h1>Parcel React App</h1>
-      <p>
-        Edit <code>src/App.tsx</code> to get started!
-      </p>
+    <div className="">
+      <Body />
     </div>
   );
 }
