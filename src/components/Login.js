@@ -1,5 +1,11 @@
+import { Link } from "react-router";
+
 const Login = () => {
-  return <div>login</div>;
+  return (
+    <div>
+      <Link to="/main">Login</Link>
+    </div>
+  );
 };
 
 export default Login;
